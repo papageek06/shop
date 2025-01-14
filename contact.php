@@ -24,7 +24,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         '$first_name', 
         '$last_name', 
         '$email', 
-        '$message', 
+        '$message' 
         )
     ");
 
@@ -40,7 +40,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 <!-- Body content -->
 
 
-
+<?= $msg ?>
 <h1 class="text-center">Give us your informations</h1>
     <form class="row col-md-10" method="post" action="contact.php">
         <div class="form-group col-md-6">
