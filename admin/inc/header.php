@@ -41,7 +41,7 @@
                     <!-- Si l'internaute est connecté j'affiche le bouton de déconnexion -->
 
                         <li class="nav-item">
-                            <a class="nav-link font-italic" href="../connexion.php?action=deconnexion">
+                            <a class="nav-link font-italic" href="../connection.php?action=disconnection">
                                 Disconnection
                             </a>
                         </li>

@@ -30,22 +30,22 @@
             <h5 class="text-white text-uppercase">Links</h5>
             <ul class="list-unstyled">
                 <li>
-                    <a href="contact.php" class="text-white"> Contact</a>
+                    <a href="./../contact.php" class="text-white"> Contact</a>
                 </li>
                 <li>
-                    <a href="index.php" class="text-white"> Shop</a>
+                    <a href="../index.php" class="text-white"> Shop</a>
                 </li>
                 <li>
-                    <a href="cart.php" class="text-white"> Cart</a>
+                    <a href="../cart.php" class="text-white"> Cart</a>
                 </li>
                 <li>
-                    <a href="profile.php" class="text-white"> My profile</a>
+                    <a href="../profile.php" class="text-white"> My profile</a>
                 </li>
                 <li>
-                    <a href="connection.php" class="text-white"> Connection</a>
+                    <a href="../connection.php" class="text-white"> Connection</a>
                 </li>
                 <li>
-                    <a href="registration.php" class="text-white"> Registration</a>
+                    <a href="../registration.php" class="text-white"> Registration</a>
                 </li>
             </ul>
         </div>
