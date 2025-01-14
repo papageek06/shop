@@ -20,14 +20,11 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_POST[$key] = strip_tags($value);
     }
 
-    $pdo->exec("INSERT INTO contact (first_name, last_name, email, phone_number, sbject, message , date) VALUES (
+    $pdo->exec("INSERT INTO contact (first_name, last_name, email, message) VALUES (
         '$first_name', 
         '$last_name', 
         '$email', 
-        '$phone_number', 
-        '$subject', 
         '$message', 
-        NOW()
         )
     ");
 
@@ -45,7 +42,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 <h1 class="text-center">Give us your informations</h1>
-    <form class="row col-md-10" method="post">
+    <form class="row col-md-10" method="post" action="contact.php">
         <div class="form-group col-md-6">
             <!-- <input type="hidden" name="id_member" value="<?php echo $id_member; ?>"> -->
             <label for="firstName">FirstName :</label>
