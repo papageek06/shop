@@ -20,7 +20,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         $_POST[$key] = strip_tags($value);
     }
 
-    $pdo->exec("INSERT INTO contact (first_name, last_name, email, message) VALUES (
+    $count =$pdo->exec("INSERT INTO contact (first_name, last_name, email, message) VALUES (
         '$first_name', 
         '$last_name', 
         '$email', 
